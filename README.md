@@ -7,12 +7,18 @@
 
 当前为 Windows x64 预览版。macOS 属于后续计划，尚未提供安装包。
 
-## 下载与演示
+## 下载
 
 - **[下载 Windows 安装包 v0.1.2](https://github.com/p516757794/shiguang/raw/refs/heads/main/downloads/shiguang-0.1.2-x64-setup.exe)**
-- **[下载 HTML 功能演示](https://github.com/p516757794/shiguang/raw/refs/heads/main/docs/demo.html)**：保存后用浏览器打开，70 秒自动演示，支持暂停、拖动进度、调速和全屏。
-- 演示是示例数据驱动的界面动画，并非真实桌面录屏，不会读取浏览器剪贴板或转换本地文件。
 - [更新记录](CHANGELOG.md) · [开发与贡献](CONTRIBUTING.md) · [第三方说明](THIRD_PARTY_NOTICES.md)
+
+## 15 秒预览
+
+![拾光 15 秒演示：拖动窗口收至最小宽度 340px，放在文档旁，点击记录插入并滚动浏览](docs/demo.gif)
+
+拖动边缘，将工具横向收至最小宽度 **340 px**，放在文档窗口旁；记录保持单列，点击插入、滚动查看。
+
+15 秒循环播放，直接在主页观看。以上为示例数据制作的界面动画，并非实际桌面录屏。
 
 ## 可以做什么
 
