@@ -1,0 +1,21 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+.encoding-backup-*/
+*.log
+.DS_Store
+
+# 本机资料与发布暂存
+交接记录.md
+任务手册.md
+界面实现要求.md
+design-baseline/
+安装包/
+发布资料/
+*.pdb
+*.db
+*.db-*
+.env
+.env.*
+!.env.example

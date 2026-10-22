@@ -1,0 +1,1 @@
+4e63e397415ab8fc8a67482ed9b8ddd64ad8fb2f69756aa53e68339628cfa446  shiguang-0.1.2-x64-setup.exe

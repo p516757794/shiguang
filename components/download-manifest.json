@@ -1,0 +1,236 @@
+{
+  "id": "windows-x64-20261022",
+  "python": {
+    "name": "Python",
+    "version": "3.13.16",
+    "filename": "python-3.13.16-embed-amd64.zip",
+    "url": "https://www.python.org/ftp/python/3.13.16/python-3.13.16-embed-amd64.zip",
+    "sha256": "97dae5274cc54867065e8d5a3226e48c35017ed332a0fdb0e27d5b5821961297",
+    "size": 11439094,
+    "license": "PSF-2.0",
+    "source": "https://www.python.org/downloads/release/python-31316/"
+  },
+  "office": {
+    "name": "LibreOffice Portable",
+    "version": "26.2.4",
+    "filename": "LibreOfficePortable_26.2.4_MultilingualStandard.paf.exe",
+    "url": "https://download.documentfoundation.org/libreoffice/portable/26.2.4/LibreOfficePortable_26.2.4_MultilingualStandard.paf.exe",
+    "sha256": "4bde93374aef4409243505b20d16561a4628ac7591457dd01fc6e1ccf571ba65",
+    "size": 223657592,
+    "license": "MPL-2.0 and bundled third-party licenses",
+    "source": "https://portableapps.com/apps/office/libreoffice_portable"
+  },
+  "wheels": [
+    {
+      "name": "pip",
+      "version": "26.2.2",
+      "filename": "pip-26.2.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/3f/06/3e4420302363fbb71be3c7f35ce042f54bfca330e3e66b3a2e3c4cca579f/pip-26.2.2-py3-none-any.whl",
+      "sha256": "fd7f4dfa8190e014013b9f08f3e973f4e4c26ffd179a204895533a7254813a70",
+      "size": 1819850,
+      "license": "MIT",
+      "source": "https://pypi.org/project/pip/26.2.2/",
+      "requires": []
+    },
+    {
+      "name": "pdf2docx",
+      "version": "0.5.13",
+      "filename": "pdf2docx-0.5.13-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/71/4d/4041fddff079a2cd0c87612afe74a16d2cf032b2aa73ecddbc6bca2a04fe/pdf2docx-0.5.13-py3-none-any.whl",
+      "sha256": "a293e9e78d89b12a4a43fcefba1346de220681c3daf20b8a7d3e1fce77f0fe97",
+      "size": 123863,
+      "license": "MIT",
+      "source": "https://pypi.org/project/pdf2docx/0.5.13/",
+      "requires": [
+        "PyMuPDF>=1.26.7",
+        "python-docx>=0.8.10",
+        "fonttools>=4.24.0",
+        "numpy>=1.17.2",
+        "opencv-python-headless>=4.5",
+        "fire>=0.3.0"
+      ]
+    },
+    {
+      "name": "PyMuPDF",
+      "version": "1.28.2",
+      "filename": "pymupdf-1.28.2-cp310-abi3-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/4a/61/d563bbccba262f9dd6d2d35ccb72593648184d886188efb12d9ce8f34dd6/pymupdf-1.28.2-cp310-abi3-win_amd64.whl",
+      "sha256": "ebd244918798502d7b4504c90410d1711a4d7675a32584ca30f1bab419ecbffe",
+      "size": 19826532,
+      "license": "Dual Licensed - GNU AFFERO GPL 3.0 or Artifex Commercial License",
+      "source": "https://pypi.org/project/PyMuPDF/1.28.2/",
+      "requires": []
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.4",
+      "filename": "numpy-2.5.4-cp313-cp313-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/90/8c/140a40398a66b4471211be1affdb6ed24c486d581bd28d07b7f2fcb69540/numpy-2.5.4-cp313-cp313-win_amd64.whl",
+      "sha256": "8b4d2fd2d34e5f8c9235ee787de5631a37a28402b15cb80814df973d2be54129",
+      "size": 12566113,
+      "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "source": "https://pypi.org/project/numpy/2.5.4/",
+      "requires": []
+    },
+    {
+      "name": "opencv-python-headless",
+      "version": "4.13.0.92",
+      "filename": "opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/4a/90/b338326131ccb2aaa3c2c85d00f41822c0050139a4bfe723cfd95455bd2d/opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl",
+      "sha256": "77a82fe35ddcec0f62c15f2ba8a12ecc2ed4207c17b0902c7a3151ae29f37fb6",
+      "size": 40070414,
+      "license": "Apache 2.0",
+      "source": "https://pypi.org/project/opencv-python-headless/4.13.0.92/",
+      "requires": [
+        "numpy<2.0; python_version < \"3.9\"",
+        "numpy>=2; python_version >= \"3.9\""
+      ]
+    },
+    {
+      "name": "python-docx",
+      "version": "1.2.0",
+      "filename": "python_docx-1.2.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/d0/00/1e03a4989fa5795da308cd774f05b704ace555a70f9bf9d3be057b680bcf/python_docx-1.2.0-py3-none-any.whl",
+      "sha256": "3fd478f3250fbbbfd3b94fe1e985955737c145627498896a8a6bf81f4baf66c7",
+      "size": 252987,
+      "license": "MIT",
+      "source": "https://pypi.org/project/python-docx/1.2.0/",
+      "requires": [
+        "lxml>=3.1.0",
+        "typing_extensions>=4.9.0"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.67.0",
+      "filename": "fonttools-4.67.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/3d/61/4161946319472aaa9b897bd18ad5108a5b10f5ebaa503d921a001ac4fff9/fonttools-4.67.0-py3-none-any.whl",
+      "sha256": "4304f03ed7f4ba000a8dcc941ad854bfa52e2f3b6112b8f099b6f431cf98e701",
+      "size": 1213142,
+      "license": "MIT",
+      "source": "https://pypi.org/project/fonttools/4.67.0/",
+      "requires": [
+        "lxml>=4.0; extra == \"lxml\"",
+        "brotli>=1.0.1; platform_python_implementation == \"CPython\" and extra == \"woff\"",
+        "brotlicffi>=0.8.0; platform_python_implementation != \"CPython\" and extra == \"woff\"",
+        "zopfli>=0.1.4; extra == \"woff\"",
+        "unicodedata2>=18.0.0; python_version <= \"3.15\" and extra == \"unicode\"",
+        "lz4>=1.7.4.2; extra == \"graphite\"",
+        "scipy; platform_python_implementation != \"PyPy\" and extra == \"interpolatable\"",
+        "munkres; platform_python_implementation == \"PyPy\" and extra == \"interpolatable\"",
+        "pycairo; extra == \"interpolatable\"",
+        "matplotlib; extra == \"plot\"",
+        "sympy; extra == \"symfont\"",
+        "xattr; sys_platform == \"darwin\" and extra == \"type1\"",
+        "skia-pathops>=0.5.0; extra == \"pathops\"",
+        "uharfbuzz>=0.45.0; extra == \"repacker\"",
+        "lxml>=4.0; extra == \"all\"",
+        "brotli>=1.0.1; platform_python_implementation == \"CPython\" and extra == \"all\"",
+        "brotlicffi>=0.8.0; platform_python_implementation != \"CPython\" and extra == \"all\"",
+        "zopfli>=0.1.4; extra == \"all\"",
+        "unicodedata2>=18.0.0; python_version <= \"3.15\" and extra == \"all\"",
+        "lz4>=1.7.4.2; extra == \"all\"",
+        "scipy; platform_python_implementation != \"PyPy\" and extra == \"all\"",
+        "munkres; platform_python_implementation == \"PyPy\" and extra == \"all\"",
+        "pycairo; extra == \"all\"",
+        "matplotlib; extra == \"all\"",
+        "sympy; extra == \"all\"",
+        "xattr; sys_platform == \"darwin\" and extra == \"all\"",
+        "skia-pathops>=0.5.0; extra == \"all\"",
+        "uharfbuzz>=0.45.0; extra == \"all\""
+      ]
+    },
+    {
+      "name": "fire",
+      "version": "0.7.1",
+      "filename": "fire-0.7.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/e5/4c/93d0f85318da65923e4b91c1c2ff03d8a458cbefebe3bc612a6693c7906d/fire-0.7.1-py3-none-any.whl",
+      "sha256": "e43fd8a5033a9001e7e2973bab96070694b9f12f2e0ecf96d4683971b5ab1882",
+      "size": 115945,
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/fire/0.7.1/",
+      "requires": [
+        "termcolor",
+        "setuptools<=80.9.0; extra == \"test\"",
+        "pip; extra == \"test\"",
+        "pylint<3.3.8; extra == \"test\"",
+        "pytest<=8.4.1; extra == \"test\"",
+        "pytest-pylint<=1.1.2; extra == \"test\"",
+        "pytest-runner<7.0.0; extra == \"test\"",
+        "termcolor<3.2.0; extra == \"test\"",
+        "hypothesis<6.136.0; extra == \"test\"",
+        "levenshtein<=0.27.1; extra == \"test\""
+      ]
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "filename": "lxml-6.1.3-cp313-cp313-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/c0/28/e46a7702bd95e9043291f7c3539b6184cba66f96cea9936f20939b284eeb/lxml-6.1.3-cp313-cp313-win_amd64.whl",
+      "sha256": "e477aca0bc0d19f3b4ae9e4f2a1cfd687c31bf772d78734910658186b40b2477",
+      "size": 4004091,
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/lxml/6.1.3/",
+      "requires": [
+        "cssselect>=0.7; extra == \"cssselect\"",
+        "html5lib; extra == \"html5\"",
+        "BeautifulSoup4; extra == \"htmlsoup\"",
+        "lxml_html_clean; extra == \"html-clean\""
+      ]
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "size": 45571,
+      "license": "PSF-2.0",
+      "source": "https://pypi.org/project/typing-extensions/4.16.0/",
+      "requires": []
+    },
+    {
+      "name": "termcolor",
+      "version": "3.3.0",
+      "filename": "termcolor-3.3.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/33/d1/8bb87d21e9aeb323cc03034f5eaf2c8f69841e40e4853c2627edf8111ed3/termcolor-3.3.0-py3-none-any.whl",
+      "sha256": "cf642efadaf0a8ebbbf4bc7a31cec2f9b5f21a9f726f4ccbb08192c9c26f43a5",
+      "size": 7734,
+      "license": "MIT",
+      "source": "https://pypi.org/project/termcolor/3.3.0/",
+      "requires": [
+        "pytest; extra == \"tests\"",
+        "pytest-cov; extra == \"tests\""
+      ]
+    }
+  ],
+  "extractor": {
+    "bootstrap": {
+      "name": "7-Zip bootstrap",
+      "version": "26.05",
+      "filename": "7zr-26.05.exe",
+      "url": "https://github.com/ip7z/7zip/releases/download/26.05/7zr.exe",
+      "sha256": "9bf582b894dfa665f852d7e9112b02290a1c303c2d95a21fcdc41ffcb03143b7",
+      "size": 602624,
+      "license": "Public domain",
+      "source": "https://github.com/ip7z/7zip/releases/tag/26.05",
+      "fallbackUrls": [
+        "https://gh-proxy.com/https://github.com/ip7z/7zip/releases/download/26.05/7zr.exe"
+      ]
+    },
+    "package": {
+      "name": "7-Zip",
+      "version": "26.05",
+      "filename": "7z2605-x64.exe",
+      "url": "https://www.7-zip.org/a/7z2605-x64.exe",
+      "sha256": "fd99e86f57d8f429ef5ed045bf98315af962e2309b0f1ba87a147a44c71647d0",
+      "size": 1663506,
+      "license": "LGPL-2.1 and bundled notices",
+      "source": "https://github.com/ip7z/7zip/releases/tag/26.05",
+      "fallbackUrls": [
+        "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-x64.exe",
+        "https://gh-proxy.com/https://github.com/ip7z/7zip/releases/download/26.05/7z2605-x64.exe"
+      ]
+    }
+  }
+}
